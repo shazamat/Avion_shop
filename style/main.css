@@ -1,4 +1,12 @@
-/* ------------------- core ------------------- */
+/* ------------------- Font ------------------- */
+@import url('https://fonts.cdnfonts.com/css/satoshi?styles=135009');
+
+@font-face {
+    font-family: 'Clash-displey';
+    src: url("../font/ClashDisplay.ttf");
+}
+
+/* ------------------- Core ------------------- */
 *,
 *::before,
 *::after {
@@ -7,6 +15,12 @@
     border: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --clash: 'Clash-displey', sans-serif;
+    --satoshi: 'Satoshi', sans-serif;
+}
+
 
 a {
     text-decoration: none;
@@ -28,26 +42,71 @@ body {
     line-height: 1;
 }
 
-body {
+[class*="__container"] {
+    max-width: 1280px;
+    margin: 0 auto;
+}
 
+body {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--clash);
 }
 
 .wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
 
+/* ------------------- Header ------------------- */
+
+.header {
+    margin-top: 37px;
+}
+
+.header__shapka {
+    max-width: 1386px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+
+.shopping__card {
+    display: flex;
+    gap: 20px;
+}
+
+.line {
+    width: 1387px;
+    margin-top: 60px;
+    margin-left: 74px;
+    border: 1px solid #000000;
 }
 
 
+.header__menu {
+    margin-top: 35px;
+}
 
 
+.menu__list {
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+}
 
-
-
-
-
-
-
-
-
+.menu__link {
+    color: #726E8D;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--satoshi);
+;
+}
 
 
 
