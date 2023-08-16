@@ -48,7 +48,6 @@ body {
 }
 
 body {
-    color: #fff;
     font-size: 18px;
     font-weight: 400;
     font-family: var(--clash);
@@ -60,6 +59,12 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.btn {
+    width: 170px;
+    height: 50px;
+}
+
 
 /* ------------------- Header ------------------- */
 
@@ -84,7 +89,7 @@ body {
 .line {
     width: 1387px;
     margin-top: 60px;
-    margin-left: 74px;
+    margin-left: 72px;
     border: 1px solid #000000;
 }
 
@@ -105,9 +110,71 @@ body {
     font-size: 16px;
     font-weight: 400;
     font-family: var(--satoshi);
-;
 }
 
+/* ------------------- Main ------------------- */
+
+.furniture__brand {
+    height: 584px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2A254B;
+}
+
+.furniture__content {
+    padding-top: 80px;
+    padding-left: 80px;
+}
+
+.furniture__text {
+    color: #fff;
+    padding-bottom: 65px;
+    font-size: 40px;
+}
+
+.blur {
+    background-color: #494465;
+}
+
+.blur a {
+    color: #fff;
+    font-size: 16px;
+    font-family: var(--clash);
+}
+
+.furniture__paragraf {
+    color: #fff;
+    padding-top: 230px;
+    font-size: 16px;
+    letter-spacing: normal;
+    font-family: var(--clash);
+}
+
+
+
+.makes__cards {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.makes__card img, .makes__card h3 {
+    padding-bottom: 20px;
+}
+
+.makes__card p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.makes__text {
+    color: #2A254B;
+    font-size: 24px;
+    text-align: center;
+}
 
 
 
