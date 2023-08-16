@@ -156,7 +156,7 @@ body {
 
 .makes__cards {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     display: flex;
     justify-content: space-between;
 }
@@ -176,10 +176,33 @@ body {
     text-align: center;
 }
 
+.new__cards {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.new__text {
+    margin-top: 25px;
+}
 
+.new__price {
+    margin-top: 10px;
+}
 
+.btn-white {
+    margin-left: 43%;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
 
+.btn-white a {
+    color: #000000;
+    font-size: 16px;
+    font-family: var(--clash);
+}
 
 
 
