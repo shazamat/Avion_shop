@@ -138,13 +138,12 @@ button {
 }
 
 .blur {
-    background-color: #494465;
-}
-
-.blur a {
+    width: 170px;
+    height: 50px;
     color: #fff;
     font-size: 16px;
     font-family: var(--clash);
+    background-color: #494465;
 }
 
 .furniture__paragraf {
@@ -156,6 +155,7 @@ button {
 }
 
 
+/* ------------------- What makes our brand different section ------------------- */
 
 .makes__cards {
     margin-top: 50px;
@@ -179,6 +179,8 @@ button {
     text-align: center;
 }
 
+/* ------------------- New Ceramics section ------------------- */
+
 .new__cards {
     margin-top: 30px;
     display: flex;
@@ -195,8 +197,8 @@ button {
 
 .btn-white {
     margin-left: 43%;
-    margin-bottom: 80px;
-    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-top: 80px;
     text-align: center;
     background-color: #f9f9f9;
 }
@@ -207,6 +209,24 @@ button {
     font-family: var(--clash);
 }
 
+
+/* ------------------- Our popular products section ------------------- */
+
+.popular__product {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.popular__content__container h2 {
+    margin-bottom: 30px;
+}
+
+.popular__cards {
+    gap: 10px;
+    display: flex;
+}
+
+/* ------------------- Join the club and get the benefits section ------------------- */
 
 .join__club {
     width: 100%;
@@ -237,7 +257,7 @@ button {
     margin-bottom: 50px;
 }
 
-#email {
+#email, #footer_email {
     width: 354px;
     height: 56px;
     padding-left: 15px;
@@ -253,6 +273,7 @@ button {
     background-color: #2A254B;
 }
 
+/* ------------------- From a studio in London to a global brand with over 400 outlets section ------------------- */
 
 .from__studio {
     width: 100%;
@@ -273,10 +294,10 @@ button {
 }
 
 
+/* ------------------- Footer ------------------- */
 
 .footer {
     width: 100%;
-    height: 380px;
     background-color: #2A254B;
 }
 
@@ -290,7 +311,6 @@ button {
     color: #2A254B;
     font-family: var(--clash);
 }
-
 
 .footer__container {
     margin-top: 50px;
@@ -340,7 +360,10 @@ button {
 }
 
 .socials__content {
-    margin-top: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .socials__content h3 {
@@ -348,4 +371,11 @@ button {
     font-size: 14px;
 }
 
+.social__content {
+    margin-bottom: 10px;
+}
 
+.social__link {
+    gap: 20px;
+    display: flex;
+}
