@@ -65,6 +65,9 @@ body {
     height: 50px;
 }
 
+button {
+    cursor: pointer;
+}
 
 /* ------------------- Header ------------------- */
 
@@ -109,7 +112,7 @@ body {
     color: #726E8D;
     font-size: 16px;
     font-weight: 400;
-    font-family: var(--satoshi);
+    font-family: var(--clash);
 }
 
 /* ------------------- Main ------------------- */
@@ -205,34 +208,144 @@ body {
 }
 
 
+.join__club {
+    width: 100%;
+    height: 481px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+    background-color: #f9f9f9;
+}
+
+.join__container {
+    width: 1273px;
+    height: 364px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.join__text {
+    margin-bottom: 25px;
+    font-size: 36px;
+}
+
+.join__paragraf {
+    margin-bottom: 50px;
+}
+
+#email {
+    width: 354px;
+    height: 56px;
+    padding-left: 15px;
+    font-family: var(--clash);
+    background-color: #f9f9f9;
+}
+
+.submit__btn {
+    width: 115px;
+    height: 56px;
+    color: #fff;
+    font-family: var(--clash);
+    background-color: #2A254B;
+}
+
+
+.from__studio {
+    width: 100%;
+    height: 603px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.from__text {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.from__paragraf {
+    font-size: 16px;
+    line-height: normal;
+}
 
 
 
+.footer {
+    width: 100%;
+    height: 380px;
+    background-color: #2A254B;
+}
+
+.get_touch {
+    margin-top: 230px;
+    width: 150px;
+    height: 56px;
+}
+
+.get_touch a {
+    color: #2A254B;
+    font-family: var(--clash);
+}
 
 
+.footer__container {
+    margin-top: 50px;
+}
+
+.footer__menu h3 {
+    margin-bottom: 20px;
+}
+
+.footer__list {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
 
 
+.footer__flex {
+    display: flex;
+    gap: 100px;
+}
 
+.footer__menu {
+    color: #fff;
+}
 
+.footer__link {
+    color: #fff;
+}
 
+.footer_form {
+    color: #fff;
+}
 
+.footer_form h3 {
+    margin-bottom: 20px;
+}
 
+.submit__white {
+    color: #2A254B;
+    background-color: #fff;
+}
 
+.footer__line {
+    width: 100%;
+    margin-top: 40px;
+    border: 1px solid #4E4D93;
+}
 
+.socials__content {
+    margin-top: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.socials__content h3 {
+    color: #fff;
+    font-size: 14px;
+}
 
 
